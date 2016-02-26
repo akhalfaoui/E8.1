@@ -1,0 +1,175 @@
+body {
+	font-family: ABOVE;
+	background: #fff;
+
+}
+
+
+.animacion {
+  position: absolute;
+ 
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.circulos{
+	position: absolute;
+	left: 50%;
+ 	transform: translate(-50%);
+ 	animation: iconos 7s;
+ 	opacity: 1;
+
+}
+
+
+
+
+.portada {
+	position: inherit;
+}
+
+
+
+.inicio {
+
+	float: left;
+	border: 2px solid black;
+	border-radius: 100%;
+	padding: 20px;
+
+}
+.formulario {
+	margin-left: 200px;
+	border: 2px solid black;
+	border-radius: 100%;
+	padding: 20px;
+	float: right;
+
+}
+.segunda {
+	text-decoration: none;
+	float: left;
+	border: 2px solid black;
+	border-radius: 100%;
+	padding: 20px;
+
+}
+
+.formulario:hover {
+	border: 2px solid white;
+}
+
+.inicio:hover {
+	border: 2px solid white;
+}
+
+.segunda:hover {
+	border: 2px solid white;
+}
+
+#activo {
+	border: 2px solid white;
+}
+
+@keyframes iconos {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	100% { opacity: 1; }
+}
+
+.contenedor {
+	text-align: center;
+	position: absolute;
+	margin-right: 20%;
+	margin-left: 20%;
+	height: auto;
+	margin-top: 360px;
+	width: 60%;
+	
+
+}
+
+.mensaje {
+
+	padding-bottom: 50px;
+	max-width: 500px;
+	max-height: 200px;
+}
+
+button{
+
+	margin-top: 210px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	font-family: ABOVE;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+textarea {
+	font-family: ABOVE;
+}
+
+input {
+	font-family: ABOVE;
+}
+
+#formu {
+	margin-right: 500px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: left;
+}
+#gracias { 
+	font-family: ame;
+	display: none;
+	width: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	margin-top: 10px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ame  {
+	font-family: ame;
+	font-size: 30px;
+}
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 80%;
+    min-height: 80%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-68%);
+
+}
+
+@font-face{
+	src: url(../fuente/ABOVE.ttf);
+	font-family: ABOVE;
+}
+@font-face{
+	src: url(../fuente/amethyst.ttf);
+	font-family: ame;
+}

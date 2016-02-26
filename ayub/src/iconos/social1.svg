@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30"
+   height="30"
+   viewBox="0 0 30.000001 30.000001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="social1.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="37.524543"
+     inkscape:cy="59.745492"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="847"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1022.3622)">
+    <g
+       transform="translate(-143.4454,276.57065)"
+       id="g4761">
+      <polyline
+         stroke-miterlimit="10"
+         points="167,753 149,762 167,771  "
+         id="polyline169"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+      <circle
+         stroke-miterlimit="10"
+         cx="149"
+         cy="762"
+         r="3"
+         id="circle171"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+      <circle
+         stroke-miterlimit="10"
+         cx="168.71021"
+         cy="752.13062"
+         r="3"
+         id="circle173"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+      <circle
+         stroke-miterlimit="10"
+         cx="167"
+         cy="771"
+         r="3"
+         id="circle175"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
