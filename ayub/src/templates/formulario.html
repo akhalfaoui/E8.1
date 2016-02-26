@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Floriesteria Barcelona</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/formulario.css">
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="portada">	
+	<div class="animacion">
+		<video autoplay loop  id="bgvid">
+    	<source src="iconos/bg.mp4" type="video/mp4">
+		</video>
+		<!--circulos -->
+		<div class="circulos">
+			<a href="index.html">
+				<div  class="inicio">
+					<img  src="iconos/home.svg" type="image/svg">
+				</div>
+			</a>
+
+			<a href="formulario.html">
+				<div  id="activo" class="formulario">
+				<img src="iconos/comment-square.svg">
+			</div>
+			</a>
+
+			<a href="segunda.html">
+				<div class="segunda">
+					<img  src="iconos/cross.svg">
+				</div>
+
+			</a>
+			
+		</div>
+		
+
+	</div>
+</div>
+
+<!-- contenuido -->
+<div class="contenedor">
+		<form id="formu">
+			Nombre:<br>
+			<input class="form" type="text" name="nombre" size="45">
+			<br>
+			Correo:
+			<br>
+			<input type="text" name="correo" size="45" >
+			<br>
+			Mensaje:
+			<br>
+			<textarea  class="mensaje" rows="3" cols="44" name="mensaje" form="usrform" ></textarea>
+			<br>
+			
+		</form>
+		<button id="enviar">Enviar</button>
+		<div id="gracias">
+			<p>Gracias por contactar con nosotros.</p>
+		</div>
+			
+	</div>
+
+
+
+
+
+
+</body>
+</html>
