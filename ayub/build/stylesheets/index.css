@@ -1,0 +1,319 @@
+.boton {
+	position: absolute;
+ 
+}
+
+#oculto {
+	
+  	background: yellow;
+}
+
+
+
+body {
+	font-family: ABOVE;
+
+}
+
+.animacion {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.circulos{
+	  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: iconos 5s;
+  opacity: 1;
+
+}
+
+
+.floristeria {
+	margin: 0;
+	padding: 0;
+	font-size: 42px;
+	color: white;
+	font-family: ame;
+
+
+
+}
+
+.barra{
+	background: white;
+	border: 0;
+	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	height: 3px;
+}
+
+.barcelona {
+	margin: 0;
+	padding: 0;
+	font-size: 51.5px;
+	color: white;
+	font-family: ame;
+
+}
+#boton {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	background: url(../iconos/closed.svg);
+	background-size: 40px;
+	position: absolute;
+ 	top: 90%; 
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#boton:hover {
+	background: url(../iconos/open.svg);
+	background-size: 40px;
+}
+
+.portada {
+	position: inherit;
+}
+
+#oculto {
+	margin-left: -8px;
+	height: 400px;
+	display: none;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+  	top: 103.5%; 
+  	background: #fff;
+  	padding-bottom: 320px;
+}
+
+@keyframes portada {
+	0% {transform: scale(0); opacity: 0; }
+	40% {transform: scale(1); opacity: 1; }
+	67% { transform: scale(0); opacity: 0;display: none; }
+
+}
+
+@keyframes iconos {
+	0% { opacity: 0; }
+	25% { opacity: 0; }
+	50% { opacity: 0; }
+	65% { opacity: 0; }
+	75% { opacity: 1; }
+	100% { opacity: 1; }
+}
+
+.animationport {
+	opacity: 0;
+	animation: portada 5s;
+}
+
+.inicio {
+
+	float: left;
+	border: 2px solid black;
+	border-radius: 100%;
+	padding: 20px;
+
+}
+.formulario {
+	margin-left: 200px;
+	border: 2px solid black;
+	border-radius: 100%;
+	padding: 20px;
+	float: right;
+
+}
+.segunda {
+	text-decoration: none;
+	float: left;
+	border: 2px solid black;
+	border-radius: 100%;
+	padding: 20px;
+
+}
+
+.formulario:hover {
+	border: 2px solid white;
+}
+
+.inicio:hover {
+	border: 2px solid white;
+}
+
+.segunda:hover {
+	border: 2px solid white;
+}
+
+#activo {
+	border: 2px solid white;
+}
+
+.contenedor {
+	margin-right: 10%;
+	margin-left: 10%;
+	height: auto;
+	
+
+}
+
+.fotos {
+	padding-bottom: 50px;
+}
+
+#social {
+	background: url(../iconos/social1.svg);
+	width: 30px;
+	height: 30px;
+	position: absolute; 
+  	left: 50%;
+  	transform: translate(-50%);
+  	cursor: pointer;
+
+}
+
+#social:hover {
+	background: url(../iconos/social2.svg);
+}
+
+.imagen1 {
+	margin-right: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	border: 2px solid white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.imagen2 {
+	margin-right: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	border: 2px solid white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+
+.imagen3 {
+
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	border: 2px solid white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.fotos {
+	margin-top: 50px;
+}
+
+.facebook {
+	background: url(../iconos/facebook.svg);
+	width: 65px;
+	height: 65px;
+	
+
+}
+
+.facebook:hover {
+	background: url(../iconos/facebook2.svg);
+}
+
+.googleplus {
+	background: url(../iconos/google-plus.svg);
+	width: 65px;
+	height: 65px;
+
+
+
+}
+
+.googleplus:hover {
+		background: url(../iconos/google-plus2.svg);
+
+}
+
+.youtube {
+	background: url(../iconos/youtube.svg);
+	width: 65px;
+	height: 65px;
+
+}
+
+.youtube:hover {
+	background: url(../iconos/youtube2.svg);
+}
+
+.twitter {
+	background: url(../iconos/twitter.svg) no-repeat;
+	width: 65px;
+	height: 65px;
+	
+
+}
+
+.twitter:hover {
+	background: url(../iconos/twitter2.svg) no-repeat;
+}
+
+#redes {
+	background: #fff;
+	height: 80px;
+	padding: 10px;
+	display: none;
+}
+
+img {
+	border: none;
+	outline: none;
+}
+
+
+
+hr {
+	border: 0;
+	height: 2px;
+	background: black;
+	margin-top: 50px;
+}
+
+.ame  {
+	font-family: ame;
+	font-size: 30px;
+}
+
+
+
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+
+@font-face{
+	src: url(../fuente/ABOVE.ttf);
+	font-family: ABOVE;
+}
+
+@font-face{
+	src: url(../fuente/amethyst.ttf);
+	font-family: ame;
+}
